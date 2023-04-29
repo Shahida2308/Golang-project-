@@ -8,6 +8,6 @@ COPY *.go ./
 
 RUN go build -o my-app
 
-EXPOSE 8090 
+EXPOSE 8090
 
 CMD [ "./my-app" ]
